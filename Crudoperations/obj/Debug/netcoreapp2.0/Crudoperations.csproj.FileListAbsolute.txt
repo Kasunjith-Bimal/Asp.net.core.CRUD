@@ -1,0 +1,11 @@
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\bin\Debug\netcoreapp2.0\Crudoperations.deps.json
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\bin\Debug\netcoreapp2.0\Crudoperations.runtimeconfig.json
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\bin\Debug\netcoreapp2.0\Crudoperations.runtimeconfig.dev.json
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\bin\Debug\netcoreapp2.0\Crudoperations.dll
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\obj\Debug\netcoreapp2.0\Crudoperations.csproj.CoreCompileInputs.cache
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\obj\Debug\netcoreapp2.0\Crudoperations.AssemblyInfoInputs.cache
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\obj\Debug\netcoreapp2.0\Crudoperations.AssemblyInfo.cs
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\bin\Debug\netcoreapp2.0\Crudoperations.pdb
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\obj\Debug\netcoreapp2.0\Crudoperations.dll
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\obj\Debug\netcoreapp2.0\Crudoperations.pdb
+C:\Users\Rika\source\repos\Crudoperations\Crudoperations\obj\Debug\netcoreapp2.0\Crudoperations.csprojResolveAssemblyReference.cache

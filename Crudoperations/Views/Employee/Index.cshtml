@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Crudoperations.Models.Employee>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create" asp-controller="Employee">Create New</a>
+</p>
+<div class="row">
+    <form asp-controller="Employee" asp-action="Index" method="post">
+        <div class="col-lg-8">
+            <span> Search </span>
+            <input type="text" name="Search" />
+            <select name="SearchOptions">
+                <option value="">Please Seledct</option>
+                <option value="EmployeeName">Employee Name</option>
+                <option value="DepartmentName">Department Name</option>
+            </select>
+            <input type="submit" value="Search" />
+        </div>
+    </form>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                <a asp-action="Index" asp-route-sortOrder="name_desc">
+                    @Html.DisplayNameFor(model => model.EmployeeName)
+                </a>
+            </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeAge)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EmployeeSalary)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DepartmentId)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeAge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeSalary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.department.DepartmentName)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.EmployeeId">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.EmployeeId">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.EmployeeId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
